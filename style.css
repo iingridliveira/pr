@@ -271,7 +271,7 @@ footer{
 @media (max-width: 786px){
   body, html {
 
-
+    background: url(./IMG/3.png)no-repeat top center/cover;
 
   overflow-x: hidden!important;
   }.button-36 {
