@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-color);
+
+}
+
+ 
+#container {
+/* border: 1px solid rgb(251, 0, 255);  */
+/*apenas para se localizar onde esta o conteudo**/
+width: 100%;
+max-width: 588px;
+margin: 56px auto 0px;
+padding: 0 24px;
+  align-content:center;
+  margin-top:-50px;
+  height: 700PX;
+
+}
+#profile {
+text-align: center;/*centraliza coisas que são por padrão iline, como as Img, que é o caso*/
+/* prenchimeto*/
+  height:350px
+  
+
+}
+#profile img{
+  
+width: 300px;
+height: 600px;
+/* border: 1px solid red */
+}
+
+.button-7 {
+
+
+
+  background-color: initial;
+  
+  border-style: none;
+  
+  color: #fff;
+  cursor: pointer;
+  
+  
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  
+  
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+  border-radius: 100%;
+   height:70px;
+     
+  
+  
+  }
+
+/* CSS */
+.button-77 {
+
+
+
+background-color: initial;
+
+border-style: none;
+
+color: #fff;
+cursor: pointer;
+
+
+flex-shrink: 0;
+font-family: 'Dela Gothic One', sans-serif;
+
+
+pointer-events: auto;
+position: relative;
+
+text-decoration: none;
+text-transform: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+width: auto;
+word-break: keep-all;
+z-index: 0;
+border-radius: 100%;
+ height:70px;
+   
+align-items: center;
+
+}
+
+ul {
+  
+  font-family: 'Dela Gothic One', sans-serif;
+
+margin-top: -100px;
+list-style: none;/* tira o ponto das lista*/
+display: flex;/* separa os coteudo das linhas */
+flex-direction: column; /*colaca o coteudo em culuna e não um ao lado do outro*/
+gap: 16px; /*epaçao entre os conteudos*/  
+padding:  24px 0; 
+
+}
+ul li a{
+font-size: 20px;
+  
+  font-family: 'Dela Gothic One', sans-serif;
+
+  margin-top:-0px;
+
+justify-content:center; /* centralizar o conteudo*/
+padding: 16px 24px;/*preenchimento do conteudo,por isso não presisa de autura nem largura */
+/*brnco transparente 0.1*/
+border:1px solid var(--stroke-color);/*branco transparente o.5*/
+border-radius: 8px;/* aredodar */
+backdrop-filter:blur(4px);/*tranparencia*/
+-webkit-backdrop-filter:blur(4px) ;
+text-decoration: none;
+font-weight: 500;
+transition: background 0.2s;
+}
+#WPP{
+  height: 20PX;
+  
+}
+
+
+#social-links{
+  margin-top:-60px;
+  display: flex;/* separa os coteudo das linhas */
+  justify-content:center;
+  padding:  24px 0;  
+  font-size: 24px;
+  
+  /*gap: 16px; /*epaçao entre os conteudos*/
+  
+ /* apena deichar uma bolinha  */
+
+  
+  }
+  #social-links p{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      transition: background 0,2s;
+      border-radius: 50%;
+      color: #f93a13;
+      font-size: 10PX;
+  }
+  
+#social-link{
+  
+  margin-top:-40px;
+display: flex;/* separa os coteudo das linhas */
+justify-content:center;
+padding:  24px 0;  
+
+
+border-radius: 100%;
+gap: 30px;
+
+/*gap: 16px; /*epaçao entre os conteudos*/
+
+/* apena deichar uma bolinha  */
+
+
+}
+#social-link a{
+
+ width: 70px;
+ height:70px ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    
+    
+}
+
+
+
+
+body{
+background: url(./IMG/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9SWkQ0ay9NQUZjNXFSWkQ0ay8xL3AucG5n.png)no-repeat top center/cover;
+height: 100vh;
+
+font-family: 'Dela Gothic One', sans-serif;
+}; 
+ 
+
+header{
+color: var(--text-color);
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color:#FA6B25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  opacity: 0.9;
+  border-radius: 5px;
+  padding: 0 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);  
+}
+nav {
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+
+}
+.nav-list ul {
+color: var(--text-color);
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  
+
+}
+.nav-list{
+  color: var(--text-color);
+  display: flex;
+   
+  letter-spacing: 3px;
+  gap: 3em; 
+  list-style: none;
+  
+}
+.mobile-menu{
+  cursor: pointer;
+  display: none;
+}
+.mobile-menu div{
+   width: 32px;
+   height: 2px;
+   background-color: #fff;
+   margin: 8px;
+   transition: 0.3s;
+}
+footer{
+  width: 100%;
+  background-color: #FA6B25;
+}
+
+  
+@media (max-width: 786px){
+  body, html {
+
+
+
+  overflow-x: hidden!important;
+  }.button-36 {
+  padding: 0 2.6rem;
+}
+.div-eu {
+  margin-left: 6px;
+  width:100%;
+  position: absolute;}
+
+  #ola{
+
+    font-size: 50px !important;
+ }
+  .img-{
+    margin-top: 50px;
+  margin-left: 50px;
+    box-shadow: rgba(232, 84, 178, 0.4) -5px 5px, rgba(237, 93, 184, 0.3) -10px 10px, rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  border-radius: 100%;
+} 
+.content{
+  gap:4px;
+}   .nav-list{
+     position: absolute;
+     top: 8vh;
+     right: 0;
+     width: 50vw;
+     height: 92vh;
+     background-color: #f600d937;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     transform: translateX(100%);
+     transition: transform 0.3s ease-in;
+
+   }
+   .nav-list li{
+    margin-left: 0;
+    opacity: 0;
+   }
+   .mobile-menu{
+       
+     display: block;
+   }
+   .nav-list.active{
+       transform: translateX(0);
+   }
+
+}
+
+.button-77:before,
+.button-77:after {
+  border-radius: 80px;
+}
+
+.button-77:before {
+  background-color: #FB483C;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-77:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-77:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.button-77:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-77:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-77:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+   @keyframes navLinkFade{
+       from{
+           opacity: 0;
+           transform: translateX(50px)
+       }
+       to{
+           opacity: 1;
+           transform: translateX(0)
+       }
+   }
+   .mobile-menu.active .line1{
+       transform: rotate(-45deg) translate(-8px, 8px);
+   }
+
+   .mobile-menu.active .line2{
+       opacity: 0;
+   }
+   .mobile-menu.active .line3{
+       transform: rotate(45deg) translate(-5px, -7px);
+   }
+ 
+
+
+
+
+@media (min-width: 1920px) { /*1920px or larger*/
+  .logo1 {
+    margin-top: 70%;
+  }
+
+  .socmed a:nth-child(1), .socmed a:nth-child(2){
+    margin-top: 100%;
+  }
+}
+
+@media (min-width: 1680px) { /*for 1680 x 1050*/
+  .logo1{
+    margin-top: 70%;
+  }
+
+  .socmed a:nth-child(1), .socmed a:nth-child(2){
+    margin-top: 90%;
+  }
+}
+
+@media (min-width: 1600px) { /*for 1600 x 900*/
+  .logo1{
+    margin-top: 50%;
+  }
+
+  .socmed a:nth-child(1), .socmed a:nth-child(2){
+    margin-top: 40%;
+  }
+}
+
+@media (min-width: 1440px) { /*for 1440 x 900*/
+  .logo1 {
+    margin-top: 40%;
+  }
+  }
