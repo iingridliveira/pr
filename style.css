@@ -34,76 +34,8 @@ height: 600px;
 /* border: 1px solid red */
 }
 
-.button-7 {
-
-
-
-  background-color: initial;
-  
-  border-style: none;
-  
-  color: #fff;
-  cursor: pointer;
-  
-  
-  flex-shrink: 0;
-  font-family: Eina01,sans-serif;
-  
-  
-  pointer-events: auto;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  width: auto;
-  word-break: keep-all;
-  z-index: 0;
-  border-radius: 100%;
-   height:70px;
-     
-  
-  
-  }
 
 /* CSS */
-.button-77 {
-
-
-
-background-color: initial;
-
-border-style: none;
-
-color: #fff;
-cursor: pointer;
-
-
-flex-shrink: 0;
-font-family: 'Dela Gothic One', sans-serif;
-
-
-pointer-events: auto;
-position: relative;
-
-text-decoration: none;
-text-transform: none;
-user-select: none;
--webkit-user-select: none;
-touch-action: manipulation;
-vertical-align: middle;
-width: auto;
-word-break: keep-all;
-z-index: 0;
-border-radius: 100%;
- height:70px;
-   
-align-items: center;
-
-}
 
 ul {
   
@@ -118,22 +50,28 @@ padding:  24px 0;
 
 }
 ul li a{
+  display: flex;
+   align-items: center;
+   justify-content:center; /* centralizar o conteudo*/
+   padding: 16px 24px;/*preenchimento do conteudo,por isso não presisa de autura nem largura */
+   font-weight: 500;
+   transition: background 0.2s;
+ background-color: #ff7426;
 font-size: 20px;
-  
-  font-family: 'Dela Gothic One', sans-serif;
-
-  margin-top:-0px;
-
+ font-family: 'Dela Gothic One', sans-serif;
+ margin-top:-0px;
 justify-content:center; /* centralizar o conteudo*/
 padding: 16px 24px;/*preenchimento do conteudo,por isso não presisa de autura nem largura */
-/*brnco transparente 0.1*/
-border:1px solid var(--stroke-color);/*branco transparente o.5*/
-border-radius: 8px;/* aredodar */
-backdrop-filter:blur(4px);/*tranparencia*/
--webkit-backdrop-filter:blur(4px) ;
-text-decoration: none;
-font-weight: 500;
-transition: background 0.2s;
+
+color: #fff;
+border-radius: 10px;;
+}
+ul li a:hover{
+ background-color: #f93a13;
+ border: 1.5px solid rgb(255, 234, 2);
+
+
+ border-radius: 10px;
 }
 #WPP{
   height: 20PX;
@@ -183,15 +121,20 @@ gap: 30px;
 
 }
 #social-link a{
-
+border-radius: 50%;
  width: 70px;
  height:70px ;
     display:flex;
     align-items: center;
     justify-content: center;
     padding: 16px;
+    background-color: #ff7426;
     
     
+}
+#social-link a:hover{
+  background-color: #f93a13;
+  border: 1.5px solid rgb(255, 234, 2);
 }
 
 
@@ -204,69 +147,6 @@ height: 100vh;
 font-family: 'Dela Gothic One', sans-serif;
 }; 
  
-
-header{
-color: var(--text-color);
-position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background-color:#FA6B25;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-  opacity: 0.9;
-  border-radius: 5px;
-  padding: 0 20px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);  
-}
-nav {
-  color: var(--text-color);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 8vh;
-
-}
-.nav-list ul {
-color: var(--text-color);
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  
-
-}
-.nav-list{
-  color: var(--text-color);
-  display: flex;
-   
-  letter-spacing: 3px;
-  gap: 3em; 
-  list-style: none;
-  
-}
-.mobile-menu{
-  cursor: pointer;
-  display: none;
-}
-.mobile-menu div{
-   width: 32px;
-   height: 2px;
-   background-color: #fff;
-   margin: 8px;
-   transition: 0.3s;
-}
-footer{
-  width: 100%;
-  background-color: #FA6B25;
-}
-
   
 @media (max-width: 786px){
   body, html {
@@ -276,6 +156,9 @@ footer{
   overflow-x: hidden!important;
   }.button-36 {
   padding: 0 2.6rem;
+}
+ul li a{
+  width:40px;
 }
 .div-eu {
   margin-left: 6px;
